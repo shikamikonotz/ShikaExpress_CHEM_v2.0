@@ -1,0 +1,90 @@
+\documentclass[10pt,a4paper,twoside]{report}
+
+\usepackage{shika-chem}
+
+\begin{document}
+
+\input{./tex/title.tex}
+%\input{./tex/preface.tex}
+%\input{./tex/background.tex}
+
+\tableofcontents
+
+
+% Chemistry Hands-On Activities
+\input{./tex/part-hands-on-activities.tex}
+
+% Form I
+\chapter{Chemistry Activities for Form I}
+\input{./tex/i-activities_intro-chem}
+\input{./tex/i-activities_lab-techniques-safety}
+\input{./tex/i-activities_heat-sources-flames}
+\input{./tex/i-activities_scientific-procedure}
+\input{./tex/i-activities_matter}
+\input{./tex/i-activities_combustion}
+
+% Form II
+\chapter{Chemistry Activities for Form II}
+\input{./tex/ii-activities_oxygen}
+\input{./tex/ii-activities_hydrogen}
+\input{./tex/ii-activities_water}
+\input{./tex/ii-activities_fuels-energy}
+\input{./tex/ii-activities_atomic-structure}
+\input{./tex/ii-activities_periodic-classification}
+\input{./tex/ii-activities_formula-bonding}
+
+% Form III
+\chapter{Chemistry Activities for Form III}
+\input{./tex/iii-activities_chem-equations}
+\input{./tex/iii-activities_hardness-water}
+\input{./tex/iii-activities_acids-bases-salts}
+\input{./tex/iii-activities_mole-concept}
+%\input{./tex/iii-activities_volumetric-analysis}
+\input{./tex/iii-activities_ionic-theory-electrolysis}
+\input{./tex/iii-activities_chemical-kinetics}
+\input{./tex/iii-activities_extraction-metals}
+\input{./tex/iii-activities_compounds-metals}
+
+% Form IV
+\chapter{Chemistry Activities for Form IV}
+\input{./tex/iv-activities_non-metals}
+\input{./tex/iv-activities_organic-chemistry}
+\input{./tex/iv-activities_soil-chemistry}
+\input{./tex/iv-activities_pollution}
+%\input{./tex/iv-activities_qualitative-analysis}
+
+
+% Chemistry Student Practical Worksheets
+%\input{./tex/part-spw-chem.tex}
+
+\clearpage
+\phantomsection
+\addcontentsline{toc}{part}{Appendix}
+\appendix
+\settocdepth{chapter}
+
+% Materials and Equipment
+\input{./tex/part-materials-equipment.tex}
+
+\input{./tex/local-materials-list.tex}
+\input{./tex/low-power-microscopy.tex}
+\input{./tex/storage-materials.tex}
+\input{./tex/modeling-materials.tex}
+\input{./tex/sources-of-chemicals.tex}
+
+% Interactive Learning
+\input{./tex/part-interactive-learning.tex}
+
+\input{./tex/visual-aids-displays.tex}
+\input{./tex/science-outside-classroom.tex}
+\input{./tex/science-community.tex}
+
+\input{./tex/activity-template.tex}
+
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Index}
+\printindex
+
+
+\end{document}
